@@ -10,14 +10,13 @@ license = "Apache-2.0"
 # diem dependencies
 move-model = { path = "../../move-model" }
 diem-workspace-hack = { path = "../../../common/workspace-hack" }
-diem-types = { path = "../../../types" }
 move-core-types = { path = "../../move-core/types" }
 bcs = "0.1.2"
 
 # external dependencies
 log = "0.4.14"
 anyhow = "1.0.38"
-serde = { version = "1.0.123", features = ["derive"] }
+serde = { version = "1.0.125", features = ["derive"] }
 
 [dev-dependencies]
 codespan-reporting = "0.8.0"

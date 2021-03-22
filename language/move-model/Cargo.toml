@@ -11,7 +11,6 @@ license = "Apache-2.0"
 move-lang = { path = "../move-lang" }
 bytecode-verifier = { path = "../bytecode-verifier" }
 vm = { path = "../vm" }
-diem-types = { path = "../../types" }
 diem-workspace-hack = { path = "../../common/workspace-hack" }
 bytecode-source-map = { path = "../compiler/bytecode-source-map" }
 move-ir-types = { path = "../move-ir/types" }
@@ -22,11 +21,11 @@ codespan = "0.8.0"
 codespan-reporting = "0.8.0"
 itertools = "0.10.0"
 log = "0.4.14"
-num = "0.3.0"
-once_cell = "1.7.0"
+num = "0.4.0"
+once_cell = "1.7.2"
 regex = "1.4.3"
 anyhow = "1.0.38"
-serde = { version = "1.0.123", features = ["derive"] }
+serde = { version = "1.0.125", features = ["derive"] }
 
 [dev-dependencies]
 datatest-stable = { path = "../../common/datatest-stable" }
